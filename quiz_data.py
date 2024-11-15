@@ -744,6 +744,106 @@ quiz_data = [
             "D. Unlimited design reviews"
         ],
         "answer": "B"
+    },
+    {
+        "question": "Which AWS service provides detailed information about your monthly bills and charges?",
+        "choices": [
+            "A. AWS Billing",
+            "B. AWS Cost Explorer",
+            "C. AWS Pricing Calculator",
+            "D. AWS Trusted Advisor"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "What is a primary feature of the AWS Cost Explorer?",
+        "choices": [
+            "A. Managing payment methods",
+            "B. Creating custom cost reports",
+            "C. Downloading invoices",
+            "D. Accessing tax information"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "Which tool is best for predicting future AWS usage trends?",
+        "choices": [
+            "A. AWS Billing",
+            "B. AWS Cost Explorer",
+            "C. AWS Pricing Calculator",
+            "D. AWS CloudTrail"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "What is the AWS Pricing Calculator primarily used for?",
+        "choices": [
+            "A. Estimating the cost of AWS services based on usage",
+            "B. Downloading detailed invoices",
+            "C. Managing reserved instances and savings plans",
+            "D. Setting up billing alerts"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "Which AWS service allows you to download detailed invoices for each billing period?",
+        "choices": [
+            "A. AWS Cost Explorer",
+            "B. AWS Billing",
+            "C. AWS Pricing Calculator",
+            "D. AWS Organizations"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "Which feature is unique to AWS Pricing Calculator?",
+        "choices": [
+            "A. Viewing a summary of usage and costs",
+            "B. Exporting cost estimates for sharing",
+            "C. Creating custom cost reports",
+            "D. Filtering costs by service or usage type"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "Which AWS service allows filtering and grouping of costs by tag or usage type?",
+        "choices": [
+            "A. AWS Pricing Calculator",
+            "B. AWS Billing",
+            "C. AWS Cost Explorer",
+            "D. AWS Resource Groups"
+        ],
+        "answer": "C"
+    },
+    {
+        "question": "What is the primary goal of the AWS Billing dashboard?",
+        "choices": [
+            "A. Analyzing trends and forecasting",
+            "B. Managing reserved instances and savings plans",
+            "C. Monitoring account usage and paying bills",
+            "D. Planning for future expenses"
+        ],
+        "answer": "C"
+    },
+    {
+        "question": "Which service provides access to RI and Savings Plan reports for optimization?",
+        "choices": [
+            "A. AWS Pricing Calculator",
+            "B. AWS Billing",
+            "C. AWS Cost Explorer",
+            "D. AWS Trusted Advisor"
+        ],
+        "answer": "C"
+    },
+    {
+        "question": "Which AWS service would you use to compare costs across multiple configurations?",
+        "choices": [
+            "A. AWS Cost Explorer",
+            "B. AWS Pricing Calculator",
+            "C. AWS Billing",
+            "D. AWS Budgets"
+        ],
+        "answer": "B"
     }
 
 
