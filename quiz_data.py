@@ -844,6 +844,327 @@ quiz_data = [
             "D. AWS Budgets"
         ],
         "answer": "B"
+    },
+    {
+        "question": "Your company is migrating its infrastructure to AWS. You are responsible for ensuring that the company's website is highly available and scalable. Which of the following AWS services would you use to ensure high availability and scalability? (Select TWO)",
+        "choices": [
+            "A. Amazon EC2",
+            "B. AWS Elastic Load Balancing (ELB)",
+            "C. AWS Elastic Beanstalk",
+            "D. Amazon CloudFront",
+            "E. Amazon Route 53"
+        ],
+        "answer": ["B", "D"]
+    },
+    {
+        "question": "A customer is considering using AWS for their application that requires low-latency access to data stored in an Amazon S3 bucket. Which of the following AWS services should be recommended to improve the application’s performance? (Select TWO)",
+        "choices": [
+            "A. Amazon S3 Transfer Acceleration",
+            "B. AWS Direct Connect",
+            "C. Amazon CloudFront",
+            "D. AWS Global Accelerator",
+            "E. AWS DataSync"
+        ],
+        "answer": ["A", "C"]
+    },
+    {
+        "question": "You are designing a solution for an application that stores sensitive data. You need to ensure that the data is encrypted both at rest and in transit. Which of the following AWS services and features can help achieve this? (Select THREE)",
+        "choices": [
+            "A. AWS Key Management Service (KMS)",
+            "B. Amazon S3 Server-Side Encryption (SSE)",
+            "C. AWS Identity and Access Management (IAM)",
+            "D. AWS CloudHSM",
+            "E. AWS Elastic Load Balancing (ELB) with HTTPS"
+        ],
+        "answer": ["A", "B", "E"]
+    },
+    {
+        "question": "Your company is running several workloads on AWS, and you need to ensure cost optimization without compromising performance. Which of the following strategies should you consider? (Select TWO)",
+        "choices": [
+            "A. Use Reserved Instances (RIs) for long-term workloads",
+            "B. Use Auto Scaling to adjust resources based on demand",
+            "C. Use Amazon EC2 On-Demand Instances for all workloads",
+            "D. Enable S3 Intelligent-Tiering for data storage",
+            "E. Use Amazon Redshift for all data analytics workloads"
+        ],
+        "answer": ["A", "B"]
+    },
+    {
+        "question": "You are setting up an Amazon RDS instance for a critical application and need to minimize downtime during maintenance. Which of the following features can help ensure minimal disruption? (Select TWO)",
+        "choices": [
+            "A. Multi-AZ deployments",
+            "B. RDS Automated Backups",
+            "C. Amazon CloudWatch Alarms",
+            "D. Cross-Region Replication",
+            "E. Read Replicas"
+        ],
+        "answer": ["A", "E"]
+    },
+    {
+        "question": "A company is planning to deploy a new application on AWS and needs to control access to AWS resources based on user roles. Which of the following AWS services would you use to manage permissions and control access? (Select TWO)",
+        "choices": [
+            "A. AWS Identity and Access Management (IAM)",
+            "B. Amazon CloudWatch",
+            "C. AWS Key Management Service (KMS)",
+            "D. AWS Organizations",
+            "E. AWS Config"
+        ],
+        "answer": ["A", "D"]
+    },
+    {
+        "question": "You need to monitor the health and performance of AWS resources in your application. Which AWS services can you use to monitor and receive alerts for resource utilization and performance? (Select TWO)",
+        "choices": [
+            "A. AWS CloudTrail",
+            "B. Amazon CloudWatch",
+            "C. AWS X-Ray",
+            "D. AWS Trusted Advisor",
+            "E. Amazon GuardDuty"
+        ],
+        "answer": ["B", "C"]
+    },
+    {
+        "question": "A financial services company is looking to store sensitive customer data in AWS. The data must comply with financial industry regulations and be stored securely. Which of the following AWS services and features will help achieve this? (Select TWO)",
+        "choices": [
+            "A. Amazon S3 with Server-Side Encryption (SSE) and IAM Policies",
+            "B. AWS Key Management Service (KMS) for encryption keys",
+            "C. AWS WAF for web application firewall security",
+            "D. AWS Elastic File System (EFS) with encryption at rest",
+            "E. AWS Shield for DDoS protection"
+        ],
+        "answer": ["A", "B"]
+    },
+    {
+        "question": "You need to deploy a serverless application on AWS that processes large volumes of data in near real-time. Which of the following AWS services would be ideal for building this application? (Select TWO)",
+        "choices": [
+            "A. Amazon EC2",
+            "B. AWS Lambda",
+            "C. Amazon Kinesis",
+            "D. Amazon RDS",
+            "E. Amazon DynamoDB"
+        ],
+        "answer": ["B", "C"]
+    },
+    {
+        "question": "You are building a new web application that will have high traffic. You need to optimize both performance and cost. Which of the following AWS services would help improve performance and reduce costs? (Select TWO)",
+        "choices": [
+            "A. Amazon EC2 Auto Scaling",
+            "B. Amazon CloudFront",
+            "C. Amazon RDS Multi-AZ",
+            "D. AWS Fargate",
+            "E. AWS Lambda"
+        ],
+        "answer": ["B", "A"]
+    },
+    {
+        "question": "You are tasked with configuring a new AWS VPC for an application. You need to ensure that resources within the VPC can communicate with the internet, while also protecting the resources from direct internet access. Which of the following components would you configure to achieve this? (Select TWO)",
+        "choices": [
+            "A. Internet Gateway",
+            "B. NAT Gateway",
+            "C. VPC Peering",
+            "D. Route Table",
+            "E. Security Group"
+        ],
+        "answer": ["A", "B"]
+    },
+    {
+        "question": "Your company is deploying an application in AWS that needs to be isolated from the rest of the VPC while still being able to access the internet for updates. Which of the following should you do? (Select TWO)",
+        "choices": [
+            "A. Create a private subnet",
+            "B. Use an Internet Gateway",
+            "C. Set up a NAT Gateway",
+            "D. Set up an Elastic Load Balancer",
+            "E. Configure Security Groups"
+        ],
+        "answer": ["A", "C"]
+    },
+    {
+        "question": "You want to launch an application in AWS and ensure that it has no direct internet access. However, it must be able to communicate with other AWS services. Which of the following would be most appropriate to use in this scenario? (Select TWO)",
+        "choices": [
+            "A. Private Subnet",
+            "B. Internet Gateway",
+            "C. VPC Endpoint",
+            "D. NAT Gateway",
+            "E. Public Subnet"
+        ],
+        "answer": ["A", "C"]
+    },
+    {
+        "question": "You need to securely connect your on-premises data center to your AWS VPC. Which of the following services can you use to establish this connection? (Select TWO)",
+        "choices": [
+            "A. AWS Direct Connect",
+            "B. AWS VPN",
+            "C. AWS CloudFront",
+            "D. VPC Peering",
+            "E. AWS Transit Gateway"
+        ],
+        "answer": ["A", "B"]
+    },
+    {
+        "question": "Your company has a VPC with a public subnet and a private subnet. You need to ensure that instances in the private subnet can access the internet for updates but not be directly accessible from the internet. Which configuration would accomplish this? (Select TWO)",
+        "choices": [
+            "A. Create a NAT Gateway in the public subnet",
+            "B. Create an Internet Gateway and attach it to the VPC",
+            "C. Set the route table for the private subnet to route through the NAT Gateway",
+            "D. Attach a security group to the instances in the private subnet",
+            "E. Set up a Route 53 record for the private subnet"
+        ],
+        "answer": ["A", "C"]
+    },
+    {
+        "question": "You need to set up a connection between two VPCs in the same region. Which of the following methods would allow this connection? (Select TWO)",
+        "choices": [
+            "A. VPC Peering",
+            "B. AWS VPN",
+            "C. AWS Transit Gateway",
+            "D. Direct Connect",
+            "E. Internet Gateway"
+        ],
+        "answer": ["A", "C"]
+    },
+    {
+        "question": "A VPC is configured with both public and private subnets. You want to ensure that only instances in the public subnet can receive traffic from the internet. Which AWS service would you use to configure this? (Select TWO)",
+        "choices": [
+            "A. Internet Gateway",
+            "B. NAT Gateway",
+            "C. Route Tables",
+            "D. Security Groups",
+            "E. Elastic Load Balancer"
+        ],
+        "answer": ["A", "C"]
+    },
+    {
+        "question": "You are configuring an AWS VPC with private and public subnets. You want the instances in the private subnet to access resources in the public subnet and the internet. Which of the following configurations would meet these requirements? (Select TWO)",
+        "choices": [
+            "A. Create a NAT Gateway in the public subnet",
+            "B. Attach an Internet Gateway to the VPC",
+            "C. Set up a security group to allow traffic from the private to the public subnet",
+            "D. Set the route table for the private subnet to route through the NAT Gateway",
+            "E. Place both subnets in the same availability zone"
+        ],
+        "answer": ["A", "D"]
+    },
+    {
+        "question": "Your organization has several VPCs that need to communicate with each other. Which of the following services can help you connect the VPCs? (Select TWO)",
+        "choices": [
+            "A. AWS Transit Gateway",
+            "B. VPC Peering",
+            "C. Direct Connect",
+            "D. AWS VPN",
+            "E. Amazon CloudFront"
+        ],
+        "answer": ["A", "B"]
+    },
+    {
+        "question": "You are deploying an application that will use an Amazon RDS instance in a private subnet within a VPC. You want the application to be able to access the RDS instance without exposing it to the internet. Which of the following configurations should you use? (Select TWO)",
+        "choices": [
+            "A. Launch the RDS instance in a private subnet",
+            "B. Configure the RDS instance to use an Elastic IP",
+            "C. Create a route table that directs traffic from the private subnet to the RDS instance",
+            "D. Set up a NAT Gateway in a public subnet",
+            "E. Create a security group for the RDS instance that allows traffic only from the application"
+        ],
+        "answer": ["A", "E"]
+    },
+
+{
+        "question": "A company wants to allow public access to some objects in an S3 bucket while keeping others private. Which two steps should they take to achieve this?",
+        "options": {
+            "A": "Use AWS Key Management Service (KMS) to encrypt objects.",
+            "B": "Update the bucket policy to allow public access for specific objects.",
+            "C": "Set individual object permissions to public.",
+            "D": "Disable block public access for the S3 bucket."
+        },
+        "correct_answers": ["B", "C"]
+    },
+    {
+        "question": "Which use case is best suited for the AWS Pricing Calculator? (Choose two)",
+        "options": {
+            "A": "Creating historical usage reports for analysis.",
+            "B": "Estimating monthly AWS costs for a planned deployment.",
+            "C": "Comparing pricing options for different AWS services.",
+            "D": "Monitoring real-time AWS expenses."
+        },
+        "correct_answers": ["B", "C"]
+    },
+    {
+        "question": "In an AWS VPC, why would you create both public and private subnets? (Choose two)",
+        "options": {
+            "A": "To isolate resources that don’t need internet access in private subnets.",
+            "B": "To allow EC2 instances to communicate only within the private subnets.",
+            "C": "To host web servers in public subnets and databases in private subnets.",
+            "D": "To save costs by reducing the number of NAT Gateways needed."
+        },
+        "correct_answers": ["A", "C"]
+    },
+    {
+        "question": "Which scenarios are ideal for using EC2 Spot Instances? (Choose two)",
+        "options": {
+            "A": "Running data analysis workloads that can be paused and resumed.",
+            "B": "Hosting production web applications requiring high availability.",
+            "C": "Running stateful applications like databases.",
+            "D": "Performing batch processing tasks with flexible schedules."
+        },
+        "correct_answers": ["A", "D"]
+    },
+    {
+        "question": "What are two advantages of using AWS CloudFormation? (Choose two)",
+        "options": {
+            "A": "Automates infrastructure deployment with templates.",
+            "B": "Ensures all EC2 instances run on a single availability zone.",
+            "C": "Enables version control for infrastructure configurations.",
+            "D": "Automatically encrypts all data stored in your S3 buckets."
+        },
+        "correct_answers": ["A", "C"]
+    },
+    {
+        "question": "Which two Trusted Advisor checks are available to users on the Basic Support plan? (Choose two)",
+        "options": {
+            "A": "Service limits",
+            "B": "Security groups with unrestricted access",
+            "C": "Reserved Instance (RI) utilization",
+            "D": "Cost optimization"
+        },
+        "correct_answers": ["A", "B"]
+    },
+    {
+        "question": "Which two practices ensure secure access management in AWS? (Choose two)",
+        "options": {
+            "A": "Implementing the principle of least privilege for IAM roles.",
+            "B": "Sharing root account credentials with trusted administrators.",
+            "C": "Using multi-factor authentication (MFA) for critical accounts.",
+            "D": "Creating a separate root account for each team member."
+        },
+        "correct_answers": ["A", "C"]
+    },
+    {
+        "question": "Which use case is suitable for AWS Lambda? (Choose two)",
+        "options": {
+            "A": "Running event-driven workloads, such as image processing upon upload to S3.",
+            "B": "Hosting a static website.",
+            "C": "Managing databases with high query traffic.",
+            "D": "Automating scheduled tasks without provisioning servers."
+        },
+        "correct_answers": ["A", "D"]
+    },
+    {
+        "question": "What are two benefits of using an Elastic Load Balancer? (Choose two)",
+        "options": {
+            "A": "Distributing traffic across multiple instances to increase availability.",
+            "B": "Encrypting all data stored in RDS instances.",
+            "C": "Monitoring real-time application metrics.",
+            "D": "Automatically scaling capacity to handle high traffic loads."
+        },
+        "correct_answers": ["A", "D"]
+    },
+    {
+        "question": "Which features of AWS CloudWatch can help monitor your application effectively? (Choose two)",
+        "options": {
+            "A": "Creating alarms to trigger automated actions when thresholds are met.",
+            "B": "Visualizing metrics with dashboards.",
+            "C": "Performing data backups for EC2 instances.",
+            "D": "Managing IAM roles and permissions."
+        },
+        "correct_answers": ["A", "B"]
     }
 
 
