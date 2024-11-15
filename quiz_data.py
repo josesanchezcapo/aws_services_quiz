@@ -644,6 +644,106 @@ quiz_data = [
             "D. AWS Lambda Layers"
         ],
         "answer": "B"
+    },
+    {
+        "question": "Which AWS support plan is included with all AWS accounts at no additional cost?",
+        "choices": [
+            "A. Basic Support Plan",
+            "B. Developer Support Plan",
+            "C. Business Support Plan",
+            "D. Enterprise Support Plan"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "What is the starting cost of the Developer Support Plan?",
+        "choices": [
+            "A. $15,000/month",
+            "B. $100/month",
+            "C. $29/month",
+            "D. Free"
+        ],
+        "answer": "C"
+    },
+    {
+        "question": "Which support plan provides access to a Technical Account Manager (TAM)?",
+        "choices": [
+            "A. Basic Support Plan",
+            "B. Developer Support Plan",
+            "C. Business Support Plan",
+            "D. Enterprise Support Plan"
+        ],
+        "answer": "D"
+    },
+    {
+        "question": "What is the maximum response time SLA for urgent cases in the Business Support Plan?",
+        "choices": [
+            "A. 15 minutes",
+            "B. 1 hour",
+            "C. < 24 hours",
+            "D. 24/7"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "Which AWS support plan is best suited for developers experimenting with AWS or running non-critical workloads?",
+        "choices": [
+            "A. Basic Support Plan",
+            "B. Developer Support Plan",
+            "C. Business Support Plan",
+            "D. Enterprise Support Plan"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "Which support plan offers Infrastructure Event Management (IEM)?",
+        "choices": [
+            "A. Basic Support Plan",
+            "B. Developer Support Plan",
+            "C. Business Support Plan",
+            "D. Enterprise Support Plan"
+        ],
+        "answer": "D"
+    },
+    {
+        "question": "What is a key feature of the Basic Support Plan?",
+        "choices": [
+            "A. Dedicated TAM",
+            "B. 24/7 access to AWS documentation and whitepapers",
+            "C. Access to all Trusted Advisor checks",
+            "D. SLA guarantees of 15 minutes for critical cases"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "What type of support is offered by the Business Support Plan for third-party software integrations?",
+        "choices": [
+            "A. None",
+            "B. Limited email-based support",
+            "C. Full support",
+            "D. On-demand consultation"
+        ],
+        "answer": "C"
+    },
+    {
+        "question": "Which support plan has an SLA guarantee of 15 minutes for critical system issues?",
+        "choices": [
+            "A. Basic Support Plan",
+            "B. Developer Support Plan",
+            "C. Business Support Plan",
+            "D. Enterprise Support Plan"
+        ],
+        "answer": "D"
+    },
+    {
+        "question": "What is the main advantage of the AWS Trusted Advisor in the Business Support Plan compared to the Basic Plan?",
+        "choices": [
+            "A. 24/7 support for all services",
+            "B. Access to a full suite of Trusted Advisor checks",
+            "C. Automatic optimization of costs",
+            "D. Unlimited design reviews"
+        ],
+        "answer": "B"
     }
 
 
