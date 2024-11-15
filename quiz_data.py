@@ -544,6 +544,106 @@ quiz_data = [
             "D. AWS Fargate"
         ],
         "answer": "A"
+    },
+    {
+        "question": "What is the primary purpose of the AWS Well-Architected Framework?",
+        "choices": [
+            "A. To provide a detailed cost analysis for AWS services.",
+            "B. To help architects, developers, and IT teams build secure, high-performing, resilient, and efficient infrastructure.",
+            "C. To manage user access across multiple AWS accounts.",
+            "D. To automate deployment of AWS services using CloudFormation."
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "Which pillar of the AWS Well-Architected Framework focuses on running and monitoring systems to deliver business value?",
+        "choices": [
+            "A. Operational Excellence",
+            "B. Security",
+            "C. Reliability",
+            "D. Performance Efficiency"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "Which principle is part of the Security pillar?",
+        "choices": [
+            "A. Monitor operations and refine processes.",
+            "B. Design for failure with redundancy.",
+            "C. Protect data at rest and in transit.",
+            "D. Adopt a consumption model."
+        ],
+        "answer": "C"
+    },
+    {
+        "question": "What does the Reliability pillar prioritize?",
+        "choices": [
+            "A. Minimizing environmental impact.",
+            "B. Recovering from failures and meeting business demands consistently.",
+            "C. Running systems to deliver business value.",
+            "D. Reducing operational overhead."
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "Which tool is provided by AWS to review workloads and identify areas for improvement?",
+        "choices": [
+            "A. AWS Cost Explorer",
+            "B. AWS Management Console",
+            "C. AWS Well-Architected Tool",
+            "D. AWS Trusted Advisor"
+        ],
+        "answer": "C"
+    },
+    {
+        "question": "What is a key principle of the Performance Efficiency pillar?",
+        "choices": [
+            "A. Enable traceability.",
+            "B. Use a serverless architecture when appropriate.",
+            "C. Analyze and attribute costs.",
+            "D. Manage security incidents effectively."
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "Which pillar of the AWS Well-Architected Framework aims to minimize environmental impact?",
+        "choices": [
+            "A. Operational Excellence",
+            "B. Performance Efficiency",
+            "C. Sustainability",
+            "D. Cost Optimization"
+        ],
+        "answer": "C"
+    },
+    {
+        "question": "What is a key principle of the Cost Optimization pillar?",
+        "choices": [
+            "A. Test recovery procedures and scalability.",
+            "B. Experiment with different configurations.",
+            "C. Adopt a consumption model.",
+            "D. Automate changes and responses."
+        ],
+        "answer": "C"
+    },
+    {
+        "question": "Which of the following is NOT one of the six pillars of the AWS Well-Architected Framework?",
+        "choices": [
+            "A. Security",
+            "B. Scalability",
+            "C. Reliability",
+            "D. Sustainability"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "What AWS resource offers industry-specific guidance for implementing the Well-Architected Framework?",
+        "choices": [
+            "A. AWS CloudFormation Templates",
+            "B. AWS Well-Architected Lenses",
+            "C. AWS CloudTrail Logs",
+            "D. AWS Lambda Layers"
+        ],
+        "answer": "B"
     }
 
 
