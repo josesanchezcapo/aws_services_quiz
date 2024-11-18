@@ -12,5 +12,40 @@
         "total": 1,
         "score": 100.0,
         "status": "Pass"
+    },
+    {
+        "date": "2024-11-18 12:06:15",
+        "correct": 0,
+        "total": 99,
+        "score": 0.0,
+        "status": "Exited"
+    },
+    {
+        "date": "2024-11-18 12:07:47",
+        "correct": 1,
+        "total": 99,
+        "score": 1.0101010101010102,
+        "status": "Exited"
+    },
+    {
+        "date": "2024-11-18 12:09:47",
+        "correct": 0,
+        "total": 99,
+        "score": 0.0,
+        "status": "Exited"
+    },
+    {
+        "date": "2024-11-18 12:12:48",
+        "correct": 1,
+        "total": 99,
+        "score": 1.0101010101010102,
+        "status": "Exited"
+    },
+    {
+        "date": "2024-11-18 12:18:50",
+        "correct": 0,
+        "total": 99,
+        "score": 0.0,
+        "status": "Exited"
     }
 ]
